@@ -1,13 +1,18 @@
 import React from 'react';
 
+//styles
+import styles from "./Login.module.css"
+
 //icons
-import google from "../assest/icons8-google.svg"
+import google from "../assest/icons8-google.svg";
+
+
 const Login = () => {
     return (
-        <div>
-            <div>
+        <div className={styles.loginPage}>
+            <div className={styles.loginCard}>
                 <h1>Wellcom to Tabgram!</h1>
-                <div>
+                <div className={styles.button}>
                     <img src={google} alt='google'/> Sign in whit Google.
                 </div>
             </div>
