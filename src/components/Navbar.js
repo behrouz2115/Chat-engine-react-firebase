@@ -1,12 +1,13 @@
 import React from 'react';
+import styles from "./Navbar.module.css"
 
 const Navbar = () => {
     return (
-        <div>
-            <div>
+        <div className={styles.container}>
+            <div className={styles.name}>
                 Tabgram
             </div>
-            <div>
+            <div className={styles.logout}>
                 Logout
             </div>
         </div>
