@@ -8,5 +8,5 @@ export const auth = firebase.initializeApp( {
     storageBucket: "tabgram-4a001.appspot.com",
     messagingSenderId: "70074668597",
     appId: "1:70074668597:web:24d3df0f9aa3bc681dc37c",
-    measurementId: "G-FJ4CMGWEG4"
+    // measurementId: "G-FJ4CMGWEG4"
   }).auth();
